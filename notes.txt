@@ -1,0 +1,39 @@
+Lecture 5 Completed:
+
+what is tag- its a markup entity. its a special word by which we can provide structure to our content, meaning to our content and formatting the content.
+
+significance of h1 is more as compared to h2
+heading are from h1 to h6 and after that like h7,h8 they behave as a normal paragraph
+
+we can use multiple h1 tag to webpage
+Using multiple <h1> tags on a webpage is generally not recommended because it goes against the principles of semantic HTML and can have negative effects on accessibility, search engine optimization (SEO), and overall document structure.
+
+anchor tag- <a href=""></a>
+
+The difference between the order list and unorder list is in their semantics not in their presentation their can be change like in unordered list instead of dot we can use number and in order list we can use dot.
+
+Tag	Description
+<ul>	Defines an unordered list
+<ol>	Defines an ordered list
+<li>	Defines a list item
+<dl>	Defines a description list
+<dt>	Defines a term in a description list
+<dd>	Describes the term in a description list
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>A Description List</h2>
+
+<dl>
+  <dt>Coffee</dt>
+  <dd>- black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+</dl>
+
+</body>
+</html>
+
+<br/> break
