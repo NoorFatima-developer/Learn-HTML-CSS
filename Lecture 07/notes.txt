@@ -1,0 +1,8 @@
+Lecture 07 Completed:
+
+  What we have learnt in this lecture??
+- Tables in HTML
+- Tags used in tables in HTML(<table> <thead> <tbody> <tfoot> <thh> <tr> <td>)
+- row span : used to extend columns
+- col span : used to extend rows
+- created 4 tables in the lecture and we have to create 2 tables in homework....
