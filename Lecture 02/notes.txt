@@ -1,0 +1,23 @@
+Episode 2:
+
+1) Network : Interconnected different resources(Computer, print, laptop) within single system.
+
+2) Internet : It is globle system that exists billions of device interconnected with each other (network of networks) 
+
+3) Web : Interconnected documents, devices and resources access using internet. 
+
+4) IP Address : Address for identify each device uniquely. 
+
+5) Browser : It is a tool to access documents, websites, web applications. 
+
+6) Browser Engine : It is an application which is is used to access resources[websites, web applications]. 
+Ex. (Chrome(Google), Safari(Apple), Firefox, Opera) 
+
+7) Client : Who request for something (Requests ex. Get, Put, Put, Delete) 
+Ex. Laptop, PC, App
+
+8) Server : Who full-fill requests of client.
+Ex. App, Web, DB, File
+
+9) DNS[Domain Name System] : It convert domain name into IP address.
+

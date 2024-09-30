@@ -1,0 +1,30 @@
+Episode 03:
+
+TCP/IP (Transmission Control Protocol/Internet Protocol) and OSI (Open Systems Interconnection) are both networking models that define a set of protocols and standards to facilitate communication between devices on a network. 
+
+TCP/IP Contain 4 Layers : 
+
+Application layer, Transport layer, Internet layer, and Network Access layer. 
+Each layer is responsible for specific functions, such as handling data transmission, addressing, error control, and flow control.
+
+OSI Contain 7-layer model that was developed by the International Organization for Standardization (ISO) 
+
+The seven layers of the OSI model are :-
+Application layer, Presentation layer, Session layer, Transport layer, Network layer, Data Link layer, and Physical layer. 
+
+Each layer provides specific functions, such as managing the connection, encryption, compression, routing, and framing of data.
+
+The major differences between TCP/IP and OSI models are:
+- TCP/IP is a simpler model and more commonly used, whereas OSI is a more complex model and less commonly used.
+- TCP/IP combines the presentation and session layers of OSI into the application layer.
+- TCP/IP does not include the physical and data link layers as separate layers, instead combining them into the Network Access layer.
+- TCP/IP is more flexible than OSI, allowing for more variation in implementations.
+- TCP/IP is used for communication between different networks and is used in applications such as web browsing, email, and file sharing, while OSI is primarily used in academic and research environments.
+
+In summary, both TCP/IP and OSI models provide a framework for standardizing communication protocols in computer networking. TCP/IP is a simpler and more widely used model used for Internet communication, while OSI is a more complex and less commonly used model used more in academic and research environments.
+
+
+IPv4 has a 32-bit address length.	
+IPv6 has a 128-bit address length.
+Generally, IPv6 is faster than IPv4. However, when we go to a larger packet size, IPv6 can be slow in some cases.
+need of ipv6 is to improve security and support for mobile devices ....

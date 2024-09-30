@@ -1,0 +1,5 @@
+Episode 1 
+1. I learned web development mainly consists of three layers - 
+a. Frontend
+b. Backend
+c. Database Layer

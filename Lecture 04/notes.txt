@@ -1,0 +1,12 @@
+Episode 04:
+
+What we have learnt today ??
+1. What is HTML?
+2. Environment set up (Extensions : prettier , live server )
+3. HTML( defines what ) , CSS( for styling ) , JS( Brain )
+4. Boilerplate  code of HTML 
+5.Different tags ( html , head , body , form , section , etc.)
+6. Difference between  tag and element.
+7. Resources to follow (websites : mdn , w3schools)
+8. Comments in HTML( ctrl + / )
+9. HOMEWORK :  How to write a paragraph in next line ??  Ans . Use <br> tag.
