@@ -37,3 +37,35 @@ Tag	Description
 </html>
 
 <br/> break
+
+
+Lecture 06 Completed:
+
+what we have learnt in this lecture??
+1. Emmet abbreviations..
+    > (for nesting)
+    + (for next tag without nesting)
+    #(for id attribute)
+    . (for class attribute)
+    {}( To write some content)
+
+2. Div tag
+3. Block and inline elements
+4.Navigation bar (<nav> tag)
+5. How to create Hyperlink , Email and telephone call using anchor <a> tag
+6. HOMEWORK : 
+     a. Read block and inline elements from mdn.
+     b. Can we convert a block element into inline element and vice versa?
+     c. How could i place content of list side by side instead of vertical?
+     d. How to remove dots in a list?
+     e. How to create bookmark using anchor <a> tag?
+
+
+  Lecture 07 Completed:
+
+  What we have learnt in this lecture??
+- Tables in HTML
+- Tags used in tables in HTML(<table> <thead> <tbody> <tfoot> <thh> <tr> <td>)
+- row span : used to extend columns
+- col span : used to extend rows
+- created 4 tables in the lecture and we have to create 2 tables in homework..
