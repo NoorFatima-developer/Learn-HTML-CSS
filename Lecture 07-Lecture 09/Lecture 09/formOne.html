@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form One</title>
+</head>
+<body>
+    
+    <h2>Event Registration</h2>
+
+    <form>
+
+        <!-- Text input field -->
+
+        <label for="name">Name:</label><br/>
+        <br>
+
+        <input type="text" name="name" id="name" ><br/>
+
+
+        <!-- Email input field -->
+        <label for="emailId">Email Id:</label><br/>
+        <br>
+        
+        <input type="text" name="email" id="emailId">
+        <br>
+
+        <!-- Phone input field -->
+
+        <label for="phoneno">Phone:</label><br/>
+        <br>
+        <input type="tel" name="phone" id="phoneno"><br/>
+        
+        <label for="occupationtype">Occupation</label><br/>
+        <br>
+            <!-- If wanna select multiple options in drp-down menu,, then i can hold ctrl key and touch mouse key downward... -->
+        <!-- <select name="occupation" id="occupationtype" multiple> -->
+        <select name="occupation" id="occupationtype">
+            <option value="student">Student</option>
+            <option value="teacher">Teacher</option>
+            <option value="engineer">Engineer</option>
+            <option value="other">Other</option>
+        </select>
+
+        <br>
+        <br>
+
+        <fieldset>
+            <!-- Checkboxes -->
+            <legend>Topics of Interest</legend>
+
+            <input type="checkbox" name="checkbox" id="checkbox1"><br/>
+            <label for="checkbox1">HTML</label><br/><br/>
+
+            <input type="checkbox" name="checkbox" id="checkbox2"><br/>
+            <label for="checkbox2">CSS</label><br/><br/>
+
+            <input type="checkbox" name="checkbox" id="checkbox3"><br/>
+            <label for="checkbox3">Javascript</label><br/><br/>
+
+        </fieldset>
+
+        <label for="textarea1">Comments:</label><br/><br/>
+        <textarea name="textarea" id="textarea1" cols="30" rows="10"></textarea>
+
+        <!-- By-default input type is submit I can change any-name by adding value tag like this: -->
+         <label for="submitbtn"></label>
+         <input type="submit" name="submit" id="submitbtn" value="Register" >
+
+         <!-- I can use button in type but then by-default it will not write submit here: -->
+        <!-- <input type="button" name="submit" id="submitbtn" value="Register" > -->
+        <!-- I can also use button tag to make button as well... -->
+         <!-- <button type="submit">Submit</button> -->
+
+
+    </form>
+
+</body>
+</html>
