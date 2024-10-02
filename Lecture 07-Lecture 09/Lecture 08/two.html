@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture 08</title>
+</head>
+<body>
+
+<!-- 
+    What is form?
+    Form is that in which we can get input from user... -->
+
+
+    <form >
+<!-- 
+        If I will not specify type = "text" and name = "textfield1", the it will show input field and I can type anything because by-default 
+        its input type is text,, and write name = "textfield1" or anything like firstname and lastname etc..its a good practice to use... -->
+
+        <!-- 1---TEXT FIELD -->
+
+        <label for="textfield1">TextField:</label>
+        <input type="text" name="textfield1" id="textfield1">
+
+        <br>
+        <br>
+
+        <!-- 2--BUTTON -->
+
+        <label for="button1">Button1</label>
+        <input type="submit" name="button1" id="button1" value="Subscribe">
+
+        <!-- Can also do by button tag as well like this: -->
+         <!-- <button type="submit">Subscribe</button> -->
+
+        <br>
+        <br>
+
+        <!-- If I want to select one radio button then name should be same in all radio buttons if name will be different then all radio buttons will be selected: -->
+
+        <!-- 3--RADIO BUTTONS -->
+
+        <label for="radio1">Male</label>
+        <input type="radio" name="radio1" id="radio1">
+
+        <label for="radio2">Female</label>
+        <input type="radio" name="radio1" id="radio2">
+
+        <label for="radio3">Others</label>
+        <input type="radio" name="radio1" id="radio3">
+
+
+        <br>
+        <br>
+        <!-- 4---CHECKBOX -->
+
+        <label for="checkbox1">English:</label>
+        <input type="checkbox" name="checkbox1" id="checkbox1">
+
+
+        <label for="checkbox2">Hindi:</label>
+        <input type="checkbox" name="checkbox2" id="checkbox2">
+
+        <br>
+        <br>
+
+        <label for="choosefile">UploadFile:</label>
+        <input type="file" name="choosefile" id="choosefile">
+
+        <br>
+        <br>
+
+        <img name="arrow" id="arrowImage" src="button1.png" alt="Click Here" width="20px" height="20px"/></img>
+
+        <br>
+        <br>
+
+        <label for="password1">Enter Password:</label>
+        <input type="password" name="password" id="password1" placeholder="Enter password here...">
+
+        <br>
+        <br>
+
+        <label for="date1">Enter Date:</label>
+        <input type="date" name="datepicker" id="date1">
+
+    </form>        
+
+    
+</body>
+</html>

@@ -1,0 +1,12 @@
+What we have learnt in this lecture ??
+- HTML forms
+- Tags used in HTML forms ( <form> , <input> , <label> , etc. ) 
+- Input types ( textfield , button , radio , checkbox , file , image-button , password , date-picker  )
+- Form elements ( input , label , select , option , button , textarea , fieldset , legend )
+- NOTE :  i) By default type of <input> tag is ''text"
+                ii) (for = " ") of <label> tag should be equal to (id = " ") of <input> tag.
+               iii)  Placeholder (It gives user a hint that what should be written here , i.e. FADED TEXT)
+- HOMEWORK : 
+ i) Is it possible to select multiple options in a dropdown menu? If yes , find how its possible.
+ii) How can i select only one radio button?
+iii)Read HTML forms from MDN and W3SCHOOLS.
