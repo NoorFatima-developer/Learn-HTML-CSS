@@ -1,0 +1,8 @@
+Lecture 10:
+
+<summary>: This element is used to provide a summary or label for the <details> element. When clicked, it will toggle the visibility of the content inside the <details> element.
+
+The content inside the <details> tag will be hidden by default and will become visible when the user clicks the <summary>.
+
+
+
