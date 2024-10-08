@@ -1,0 +1,7 @@
+Lecture 12 Homework...
+
+4 factors on which cascading depends:
+1. Relevance
+2. Origin and importance
+3. Specificity
+4. Order of appearance
