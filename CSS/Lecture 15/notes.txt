@@ -1,0 +1,14 @@
+Lecture 15:
+
+Homework tasks:
+
+All homework answers are here"
+
+---Press the Alt key and then use the left click to add multiple cursors.
+
+---Width & height don't apply to the span tag because it is an inline element it will take space according to the content written in it.
+
+---Yes, we can add in short-hand style just like padding.
+
+---The box-sizing property allows us to include the padding and border in an element's total width and height.
+If you set box-sizing: border-box; on an element, padding, and border are included in the width and height.
