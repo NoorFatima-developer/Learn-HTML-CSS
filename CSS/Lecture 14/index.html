@@ -14,20 +14,55 @@
             font-family: cursive;
             font-size: 20px;
         }
+/* 
+        There are four ways to add color in html.
+        first is named color, second is rgb, third is hex, fourth is hsl... */
+
+        /* named-color */
+        #firstPara {
+            background-color: yellow;
+            color: red;
+        }
+
+        /* rgb */
+        #secondPara {
+            background-color: rgb(0, 255, 47);
+        }
+
+        /* rgba */
+        #thirdPara {
+            background-color: rgba(37, 25, 114, 1);
+        }
+
+        /* hexadecimal color picker */
+        .firstPara {
+
+            background-color: #80252587;
+
+        }
+
+        /* hsl */
+        #fourth {
+            background-color: hsl(360, 100%, 50%);
+        }
+        
     </style>
 </head>
 <body>
 
     <h2>Welcome to CodeHelp</h2>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    <p id="firstPara">Lorem ipsum dolor sit amet consectetur adipisicing elit.
     Repudiandae incidunt quasi doloremque eveniet molestias sunt possimus culpa nihil aut quae?</p>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    <p id="secondPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
     Doloribus minima veritatis tempore accusantium, in molestiae! Recusandae tempore ipsa eos soluta animi quis dolores culpa necessitatibus nihil aspernatur, nobis, enim aut.</p>
 
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+    <p id="thirdPara">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
     Temporibus magni quasi delectus deserunt dolores sed deleniti fuga saepe? Obcaecati natus voluptate laborum in, quod ipsam soluta ab, labore cupiditate veritatis id rem eos mollitia quis molestiae corrupti tempore illo iusto?</p>
     
+    <p class="firstPara">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptatem ex, alias dolore omnis iure labore nam incidunt excepturi adipisci quisquam nisi, aperiam vero, harum repellendus laudantium? Eius, esse atque!</p>
+
+    <p id="fourth">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, esse.</p>
 </body>
 </html>
