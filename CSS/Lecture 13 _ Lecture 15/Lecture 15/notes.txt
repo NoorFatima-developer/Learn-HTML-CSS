@@ -4,11 +4,20 @@ Homework tasks:
 
 All homework answers are here"
 
+QUESTION 01: ANSWER IS:
 ---Press the Alt key and then use the left click to add multiple cursors.
 
+QUESTION 02: ANSWER IS:
 ---Width & height don't apply to the span tag because it is an inline element it will take space according to the content written in it.
 
+QUESTION 03: ANSWER IS:
 ---Yes, we can add in short-hand style just like padding.
 
+QUESTION 04:
+Why asigning box-sizing to border-box...
+ANSWER:
 ---The box-sizing property allows us to include the padding and border in an element's total width and height.
-If you set box-sizing: border-box; on an element, padding, and border are included in the width and height.
+If you set box-sizing: border-box; on an element, padding, and border are included in the width and height..
+
+KEEP IN MIND:
+Jo kuch b browser pr render kraingy wo box ki form mai(rectanglular form) mai render hogi no matter what the size of box is...
