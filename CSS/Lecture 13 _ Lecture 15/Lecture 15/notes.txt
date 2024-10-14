@@ -10,6 +10,7 @@ QUESTION 01: ANSWER IS:
 QUESTION 02: ANSWER IS:
 ---Width & height don't apply to the span tag because it is an inline element it will take space according to the content written in it.
 
+
 QUESTION 03: ANSWER IS:
 ---Yes, we can add in short-hand style just like padding.
 
