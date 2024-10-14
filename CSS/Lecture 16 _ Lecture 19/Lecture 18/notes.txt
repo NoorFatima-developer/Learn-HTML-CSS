@@ -1,0 +1,17 @@
+Lecture 18 HOMEWORK:
+
+Pixels per inch (PPI) refers to the number of pixels contained within each inch of a digital image.
+DPI stands for Dots per Inch, referring to the number of ink droplets a printer will produce per inch while printing an image.
+The more dots of ink per inch the picture has, the more detail you will see when printed.
+
+A good picture should have higher ppi before printing and higher dpi after printing.
+
+2) Logical pixel :- Aslo know as device independent pixel. These provide consistent layout and sizing for different device . By defining UI elements, font sizes, and image dimensions in logical pixels, developers can achieve a consistent appearance across various screen sizes and resolutions. The logical pixel values are then translated into the appropriate number of physical pixels based on the device's pixel density.
+
+Physical pixel :- They are the individual dots or points of light that make up the screen's resolution. These dots together help us in seeing the vedio , images etc.
+
+3) Following are the things that should be in mind for making a responsive website :-
+a) All the units should be relative like em , rem etc.
+b)Use media queries.
+c) use CSS techniques like flexbox or grid to rearrange and stack content.
+d)It's crucial to test your website on various devices, browsers, and screen sizes to ensure it renders correctly and functions as intended.
