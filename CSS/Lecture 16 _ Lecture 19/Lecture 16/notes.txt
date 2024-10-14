@@ -1,0 +1,4 @@
+ALL HOMEWORK ANSWERS:
+10 different block elements are <address>, <article>, <aside>, <dl>, <dt>, <header>, <footer>, <main>, <nav> and <ul>.
+
+10 different inline elements are <label>, <input>, <span>, <textarea>, <button>, <img>, <em>, <br>, <a> and <select>.
