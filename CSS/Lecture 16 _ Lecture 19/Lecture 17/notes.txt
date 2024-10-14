@@ -1,0 +1,3 @@
+LECTURE 17 HOMEWORK:
+img tag is an inline element but it behaves like an inline-block
+"fixed" position for contact

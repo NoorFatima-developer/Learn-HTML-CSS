@@ -14,20 +14,63 @@
         div {
             border: 1px solid black;
         }
+
+        .image2 {
+
+            /* top, bottom or left right m sy 1 time m 1 use o ga... */
+            /* position: relative;
+            top: 100px;
+            left: 200px;
+            right: 100px; */
+             /* position: absolute; 
+             top: 100px; */
+        }
+
+        .container {
+            position: relative;
+            height: 8000px;
+        }
+
+        .image4 {
+            /* inage will be fixed while scrolling... */
+            position: fixed;
+        }
+
+        .image3 {
+            position: sticky;
+            top: 100px;
+        }
+
+        .box {
+            background-color: aquamarine;
+            height: 5000px;
+        }
          
+
+        /* 1. absolute: element will be positioned relative to its closest positioned ancestor. If none, it will be positioned relative to the body. */
+        /* 2. relative: element will be positioned relative to its normal position. */
+        /* 3. fixed: element will be positioned relative to the viewport, and it will stay in the same position even when scrolling. */
+        /* 4. sticky: element will be positioned relative to its normal position, but it will change position when it crosses a specified threshold (sticky positioning). */
+       
+        
     </style>
 </head>
 
 <body>
     
     <div class="container">
-        <img src="../assets/Supreme01.jpeg" alt="Poster 01" width="300px" height="300px" class="image 1">
+        <img src="../assets/Supreme01.jpeg" alt="Poster 01" width="300px" height="300px" class="image1">
 
-        <img src="../assets/Supreme01.jpeg" alt="Poster 01" width="300px" height="300px" class="image 2">
+        <img src="../assets/Supreme02.jpeg" alt="Poster 01" width="300px" height="300px" class="image2">
 
-        <img src="../assets/Supreme01.jpeg" alt="Poster 01" width="300px" height="300px" class="image 3">
+        <img src="../assets/Supreme03.jpeg" alt="Poster 01" width="300px" height="300px" class="image3">
 
-        <img src="../assets/Supreme01.jpeg" alt="Poster 01" width="300px" height="300px" class="image 4">
+        <img src="../assets/Supreme01.jpeg" alt="Poster 01" width="300px" height="300px" class="image4">
+
+    </div>
+
+    <!-- ab ye iss box sy pehly pehly tk e sticky rhygi ku k ye box class container clas ssy alag hai... -->
+    <div class="box">
 
     </div>
 
