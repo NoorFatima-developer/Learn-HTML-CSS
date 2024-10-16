@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Collapse property in float is as follows: -->
+    <style>
+        .box {
+            border: 1px solid black;
+            /* by using overflow-auto, just whole box collapse will come back to its position */
+            overflow: auto;
+        }
+
+        .item {
+            width: 200px;
+            height: 200px;
+            margin: 2px;
+            background-color: aquamarine;
+            border: 1px solid black;
+            padding: 5px;
+            /* parent box collapse in a single line... all boxes overflow to its parent... */
+            float: left;        
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="box">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+    </div>
+</body>
+</html>
