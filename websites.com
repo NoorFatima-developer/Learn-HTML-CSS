@@ -10,3 +10,6 @@ vecteezy site...
 
 free download audio:
 https://mixkit.co/free-stock-music/
+
+read about float and clear:
+css-tricks.com
