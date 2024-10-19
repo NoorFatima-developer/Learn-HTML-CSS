@@ -10,6 +10,7 @@
             border: 5px solid black;
             margin: 2px;
             padding: 2px;
+            
             /* flex ki direction by-default row hoti hai */
             display: flex;
             /* aghr mai column krna chahon tu mai krskti o by using flex-direction property */
@@ -17,13 +18,20 @@
             /* aghr mai row ko reverse krna chahon tu order b reverse o ga mtlb last wala color first pr ajyega or ye reverse b o gy mtlb dosri side m chly jygy one side sy */
             /* flex-direction: row-reverse; */
             /* i cam also use column-reverse... */
-            flex-direction: column-reverse
+            /* flex-direction: column-reverse */
+            /* flex wrap three types, nowrap, wrap, reverse */
+            flex-wrap: nowrap;
+            /* flex-wrap: wrap;
+            flex-wrap: reverse; */
+
 
         }
 
         .box {
             width: 200px;
             height: 200px;
+            margin: 2px; 
+             padding: 2px;
             border: 2px solid brown;
         }
 
