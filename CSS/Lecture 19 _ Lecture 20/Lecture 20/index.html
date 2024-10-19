@@ -12,12 +12,12 @@
             margin: 2px;
             padding: 2px;
             
-            /* ====flex container properties ====*/
+            /* 1---------====flex container properties ====*/
 
             /* flex ki direction by-default row hoti hai */
             display: flex;
-            /* flex-direction: row; */
-            flex-direction: column;
+            flex-direction: row;
+            /* flex-direction: column; */
             /* aghr mai column krna chahon tu mai krskti o by using flex-direction property */
             /* flex-direction: column; */
             /* aghr mai row ko reverse krna chahon tu order b reverse o ga mtlb last wala color first pr ajyega or ye reverse b o gy mtlb dosri side m chly jygy one side sy */
@@ -25,41 +25,60 @@
             /* i cam also use column-reverse... */
             /* flex-direction: column-reverse */
             /* flex wrap three types, nowrap, wrap, reverse */
-            flex-wrap: nowrap;
-            /* flex-wrap: wrap;
-            flex-wrap: reverse; */
-            height: 1500px;
+            /* flex-wrap: nowrap; */
+            /* flex-wrap: wrap; */
+            /* flex-wrap: reverse; */
+            height: 800px;
 
-            /*=====justify-content:======= */
-            justify-content: center;
-            /* justify-content: start; */
+            /*2-----------=====justify-content:======= */
+            /* justify-content: center; */
+            justify-content: start;
             /* justify-content: end; */
             /* justify-content: space-around;
             justify-content: space-between;
             justify-content: space-evenly; */
 
+            /* 3-------=========align-items:========= */
+            /* align-items: center; */
+            align-items: start;
+            /* align-items: end;  */
+            /* align-items: stretch; */
+            align-content: center;
         }
 
         .box {
-            width: 200px; 
-            height: 200px;
+            /* width: 200px; 
+            height: 200px; */
             margin: 2px; 
              padding: 2px;
             border: 2px solid brown;
-
         }
 
         #box1{
             background-color: aqua;
+            /* order: 1; */
+            /* flex-shrink: 4; */
+            /* flex-grow: 5; */
+            /* flex-basis: 400px; */
+            /* align-self: center; */
         }
         #box2{
             background-color: blue;
+            /* flex-grow: 1; */
+            /* align-self: end; */
+
         }
         #box3{
             background-color: orange;
+            /* flex-grow: 1; */
+            /* align-self: center; */
+
         }
         #box4{
             background-color: brown;
+            /* order: -1; */
+            /* flex-grow: 1; */
+
         }
 
     </style>
@@ -67,10 +86,10 @@
 <body>   
     
         <div class="container">
-            <div class="box" id="box1"></div>
-            <div class="box" id="box2"></div>
-            <div class="box" id="box3"></div>
-            <div class="box" id="box4"></div>
+            <div class="box" id="box1">Box 1</div>
+            <div class="box" id="box2">Box 2</div>
+            <div class="box" id="box3">Box 3</div>
+            <div class="box" id="box4">Box 4</div>
         </div>
     
    

@@ -1,11 +1,46 @@
+
 Sbsy pehly meny sikha flexbox kea hota hai..(layout design klye use krty hain ot ye rectangular form mai hota hai)
+1---
 flexbox ko use kesy krty hain(display: flex sy use krty hain)
 flex ki by-default direction row hoti hai but hum column b krskty hain ,row-reverse and column reverse b krskty hain...
 flex ko nowrap, wrap and rervse b krskty hain..
-justify content hmara main axis hota hai...
+2----
+justify content hmara main axis hota hai...(mnz by-default horizontal )
 aghr flex direction row o tu main axis horizontal hota hai..(center krygy tu left right m spaces hongi).and ismai justify content, center, start , end sbmaisy koi b use krskty hain
 aghr flex direction column o tu main axis vertical hota hai..(center krygy tu up and down mai spaces hongi..).and ismai justify content, center, start , end sbmaisy koi b use krskty hain
 and justify content mai hmry pss space around(ismai pehly or akhri dby ki space same or thori o gi or andr waly dibo ki spaces zda hongi), 
 space between(ismai pehla or end wala diba container k sath jura hoa hota hai...)
 and space evenly(ismai left right around hr jagah sy space same o gi) b hota hai...
 
+3----
+align-items hamra cross-axis hota hai ...(mnz by-default vertical)
+aghr flex direction row o tu cross-axis vertical hota hai...
+aghr flex direction column o tu cross-axis horizontal hota hai...
+
+4----align-content
+iissi trhan hmry ps 1 slign content hota hai jo k align-items and justify-content k drmayan ki jo space hoti hai osko khtm krta hai..
+and ye b different trhan ka hota hai like:
+align-items: center, sy wo sary content k drmayan space khtm krk center krdeta hai, and align-items: start sy start m krdeta hai space khtm krk and align-items: end sy end m krdeta hai space khtm krk...
+
+5--flex items mai 3 aty hain...i-order, shrink, grow:
+
+i-order property
+order property mai basically hum sequence change krskty hain mtlb aghr agy jana hai tu 
+order: 1 use krskty hain and aghr pichy ana hai tu order:-1 use krskty hain...
+
+ii-shrink property
+aghr i want mera element 4 guna zda jldi shrink o then i will use shrink property:
+flex-shrink: 4
+
+iii-grow property
+aghr i want mera element 4 guna jldi bra o then i can use 
+flex-grow: 4
+basically flex-grow ko hum remaining space leny klye use kr rye hoty hain...
+
+iv-flex-basis
+ye basically flex ki dimension ko set krny klye hum log use krty hain...
+
+v-align-self:
+ye basically box ko start end center m move klye use krty hain:
+like,
+align-self: start, align-self: end, align-self:center
