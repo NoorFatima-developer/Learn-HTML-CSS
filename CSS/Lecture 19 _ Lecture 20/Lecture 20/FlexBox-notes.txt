@@ -3,7 +3,7 @@ Sbsy pehly meny sikha flexbox kea hota hai..(layout design klye use krty hain ot
 1---
 flexbox ko use kesy krty hain(display: flex sy use krty hain)
 flex ki by-default direction row hoti hai but hum column b krskty hain ,row-reverse and column reverse b krskty hain...
-flex ko nowrap, wrap and rervse b krskty hain..
+flex ko nowrap(nowrap sy sary boxes 1 e line m rhygy jb m mobile m stretch krogi onko tu), wrap(wrap m say boxes oper nichy hoty jygy jb m mobile view m dekhogi tu) and wrap-rervse(ismai hmary boxes reverse krty hain...) b krskty hain..
 2----
 justify content hmara main axis hota hai...(mnz by-default horizontal )
 aghr flex direction row o tu main axis horizontal hota hai..(center krygy tu left right m spaces hongi).and ismai justify content, center, start , end sbmaisy koi b use krskty hain
