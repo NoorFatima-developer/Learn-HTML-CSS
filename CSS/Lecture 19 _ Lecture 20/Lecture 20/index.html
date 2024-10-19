@@ -5,14 +5,19 @@
     <title>Lecture 20</title>
 
     <style>
+
         .container{
             background-color: beige;
             border: 5px solid black;
             margin: 2px;
             padding: 2px;
             
+            /* ====flex container properties ====*/
+
             /* flex ki direction by-default row hoti hai */
             display: flex;
+            /* flex-direction: row; */
+            flex-direction: column;
             /* aghr mai column krna chahon tu mai krskti o by using flex-direction property */
             /* flex-direction: column; */
             /* aghr mai row ko reverse krna chahon tu order b reverse o ga mtlb last wala color first pr ajyega or ye reverse b o gy mtlb dosri side m chly jygy one side sy */
@@ -23,16 +28,25 @@
             flex-wrap: nowrap;
             /* flex-wrap: wrap;
             flex-wrap: reverse; */
+            height: 1500px;
 
+            /*=====justify-content:======= */
+            justify-content: center;
+            /* justify-content: start; */
+            /* justify-content: end; */
+            /* justify-content: space-around;
+            justify-content: space-between;
+            justify-content: space-evenly; */
 
         }
 
         .box {
-            width: 200px;
+            width: 200px; 
             height: 200px;
             margin: 2px; 
              padding: 2px;
             border: 2px solid brown;
+
         }
 
         #box1{
@@ -51,12 +65,15 @@
     </style>
 </head>
 <body>   
-    <div class="container">
-        <div class="box" id="box1"></div>
-        <div class="box" id="box2"></div>
-        <div class="box" id="box3"></div>
-        <div class="box" id="box4"></div>
-    </div>
+    
+        <div class="container">
+            <div class="box" id="box1"></div>
+            <div class="box" id="box2"></div>
+            <div class="box" id="box3"></div>
+            <div class="box" id="box4"></div>
+        </div>
+    
+   
 </body>
 </html>
 

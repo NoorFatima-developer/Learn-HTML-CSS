@@ -1,0 +1,11 @@
+Sbsy pehly meny sikha flexbox kea hota hai..(layout design klye use krty hain ot ye rectangular form mai hota hai)
+flexbox ko use kesy krty hain(display: flex sy use krty hain)
+flex ki by-default direction row hoti hai but hum column b krskty hain ,row-reverse and column reverse b krskty hain...
+flex ko nowrap, wrap and rervse b krskty hain..
+justify content hmara main axis hota hai...
+aghr flex direction row o tu main axis horizontal hota hai..(center krygy tu left right m spaces hongi).and ismai justify content, center, start , end sbmaisy koi b use krskty hain
+aghr flex direction column o tu main axis vertical hota hai..(center krygy tu up and down mai spaces hongi..).and ismai justify content, center, start , end sbmaisy koi b use krskty hain
+and justify content mai hmry pss space around(ismai pehly or akhri dby ki space same or thori o gi or andr waly dibo ki spaces zda hongi), 
+space between(ismai pehla or end wala diba container k sath jura hoa hota hai...)
+and space evenly(ismai left right around hr jagah sy space same o gi) b hota hai...
+
