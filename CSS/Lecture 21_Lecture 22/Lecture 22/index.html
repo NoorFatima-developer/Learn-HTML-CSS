@@ -4,6 +4,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lecture 22</title>
     <style>
+
+        .root{
+            --primary-color: brown;
+            --custom-width: 330px;
+        }
         .container {
             background-color: pink;
             height: 650px;
@@ -17,12 +22,36 @@
         }
 
         .box {
+            /* --primary-color: brown;
+            --custom-width: 330px; */
             width: 330px;
             height: 330px;
             background-color: tomato;
             border: 2px solid black;
             margin: 5px;
             padding: 5px;
+            /* pehli value x hai dosri value tessri blur 4th spread klye hoti hai */
+
+            /* 1--ye simply x, y(sharp) klye example this: */
+            /* ye box shadow right side kleye hai ku k ye + m hai */
+            /* box-shadow: 10px 20px brown; */
+            /* ye box shadow left side kleye hai ku k ye - m hai */
+            /* box-shadow: -10px -20px brown; */
+
+            /* 2--use x, y and blur as well */
+            /* box-shadow: 10px 20px 50px brown; */
+            /* and negative blur radius does not exist: */
+
+            /* 3--use x, y, blur and spread(mtln hmra shadow kitna spread kryga) */
+            /* box-shadow: 10px 20px 50px 100px brown; */
+
+            /* 4--use inset krygy tu hmra shadow andr ko o ga and direction will change aghr ni krygy tu bhr ko hoga... */
+            /* box-shadow: inset 10px 20px red; */
+
+            /* 5--apply multiple shadows: */
+            box-shadow: 10px 20px brown, -10px -20px blue;
+
+
         }
     </style>
 </head>
