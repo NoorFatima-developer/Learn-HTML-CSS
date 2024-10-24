@@ -29,17 +29,29 @@
             position: relative;
             animation-name: rightMovement;
             animation-duration: 5s;
-            animation-iteration-count: 2;
-            animation-delay: 2s;
+            animation-iteration-count: 1;
+            /* animation-delay: 2s; */
+
             /* animation timing function bht trhan k hoty hain: */
             /* linear mai same speed k sath chlyga */
             animation-timing-function: linear;
             /* ease-in mai start fast hoga but end slow */
-            animation-timing-function: ease-in;
+            /* animation-timing-function: ease-in; */
             /* ease-out mai start slow o ga and end fast hoga */
-            animation-timing-function: ease-out;
+            /* animation-timing-function: ease-out; */
             /* animation-timing-function mai khudsy b create krskti o */
-            animation-timing-function: cubic-bezier(1, -0.4, 1, 1);
+            /* animation-timing-function: cubic-bezier(1, -0.4, 1, 1); */
+
+            /* aghr tu animation ko left sy right m move krwana hai or right sy m chahti o animation gyab o k start pr na aye blky end corner sy touch o k e reverse back o then i will use direction */
+            /* animation direction m b alternate, reverse and alternate-reverse ye 3 hain */
+            /* animation-direction: alternate; */
+            /* animation-direction: reverse; */
+            /* animation-direction: alternate-reverse; */
+            
+            /* aghr m apni animation ko start ya end pr stop krwana chahti o then i will use animation-fill-node  */
+            /* and 1 or main chez ye k count jitna rkhogi osk lehaz sy wo stop o gi mtlb aghr count 3 hai tu jb 3 count ayega tb e ye pause o gi */
+            /* animation-fill-mode: forwards;
+            animation-fill-mode: backwards; */
         }
 
 
