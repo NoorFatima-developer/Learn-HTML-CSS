@@ -5,16 +5,66 @@
     <title>Lecture 23</title>
     <style>
 
-        .container {
-            width: 100wh;
-            height: 100vh;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
-        
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+            background-color: beige;
+            border: 5px solid black;
+        }
+
+
+        .box {
+            width: 350px;
+            height: 80px;
+            background-color: blue;
+            border-radius: 10px;
+            border: 3px solid yellow;
+            margin: 10px;
+            position: relative;
+            animation-name: rightMovement;
+            animation-duration: 5s;
+            animation-iteration-count: 2;
+            animation-delay: 2s;
+            /* animation timing function bht trhan k hoty hain: */
+            /* linear mai same speed k sath chlyga */
+            animation-timing-function: linear;
+            /* ease-in mai start fast hoga but end slow */
+            animation-timing-function: ease-in;
+            /* ease-out mai start slow o ga and end fast hoga */
+            animation-timing-function: ease-out;
+            /* animation-timing-function mai khudsy b create krskti o */
+            animation-timing-function: cubic-bezier(1, -0.4, 1, 1);
+        }
+
+
+        @keyframes rightMovement {
+
+            from {
+                top: 0;
+                left: 0;
+            }
+
+            to {
+                top: 0;
+                left: 1200px
+            }
+        }
+
     </style>
 </head>
 <body>
     
     <div class="container">
+
+        <div class="box">
+            
+        </div>
 
 
     </div>
