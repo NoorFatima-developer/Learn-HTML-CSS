@@ -27,14 +27,17 @@
             border: 3px solid yellow;
             margin: 10px;
             position: relative;
-            animation-name: rightMovement;
+
+            /* 1----Individual notation of animation: */
+
+            /* animation-name: rightMovement;
             animation-duration: 5s;
-            animation-iteration-count: 1;
+            animation-iteration-count: 1; */
             /* animation-delay: 2s; */
 
             /* animation timing function bht trhan k hoty hain: */
             /* linear mai same speed k sath chlyga */
-            animation-timing-function: linear;
+            /* animation-timing-function: linear; */
             /* ease-in mai start fast hoga but end slow */
             /* animation-timing-function: ease-in; */
             /* ease-out mai start slow o ga and end fast hoga */
@@ -52,6 +55,12 @@
             /* and 1 or main chez ye k count jitna rkhogi osk lehaz sy wo stop o gi mtlb aghr count 3 hai tu jb 3 count ayega tb e ye pause o gi */
             /* animation-fill-mode: forwards;
             animation-fill-mode: backwards; */
+
+            /* 2-----shorthand-notation of animation: */
+
+            /* @keyframes duration | easing-function | delay |
+            iteration-count | direction | fill-mode | play-state | name */
+            animation: 5s linear 1s infinite none running rightMovement;
         }
 
 
@@ -64,8 +73,78 @@
 
             to {
                 top: 0;
-                left: 1200px
+                left: 1350px
             }
+        }
+
+        .box2 {
+            width: 350px;
+            height: 80px;
+            background-color: blue;
+            border-radius: 10px;
+            border: 3px solid yellow;
+            margin: 10px;
+            position: relative;
+            /* iteration-count | direction | fill-mode | play-state | name */ 
+            animation: 5s ease-in 1s infinite none running leftMovement;
+        }
+
+
+        @keyframes leftMovement {
+
+            from {
+                top: 300px;
+                left: 1350px;
+            }
+
+            to {
+                top: 300px;
+                left: 0;
+            }
+        }
+
+
+        #circle {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            border-radius: 50px;
+            border: 3px solid yellow;
+            margin: 60px;
+            position: relative;
+            /* top: 150px;
+            left: 650px; */
+            top: 20%;
+            left: 45%;
+            animation: 5s ease-in-out 1s infinite none running circleMovement;
+        }
+
+
+        @keyframes circleMovement {
+
+          0% {
+
+            top: 1%;
+            left: 5%;
+
+          }
+
+          30% {
+
+            top: 5%;
+            left: 90%;
+          }
+
+          60% {
+            top: 60%;
+            left: 10%;
+          }
+
+          100% {
+            top: 50%;
+            left: 80%;
+          }
+
         }
 
     </style>
@@ -75,9 +154,16 @@
     <div class="container">
 
         <div class="box">
-            
-        </div>
 
+    </div>
+        
+    <div id="circle">
+
+    </div>
+
+        <div class="box2">
+
+    </div>
 
     </div>
 </body>
