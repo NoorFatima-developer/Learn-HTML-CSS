@@ -10,15 +10,39 @@
             height: 400px;
             background-color: beige;
             border: 2px solid black;
-            transition-property: width;
-            transition-duration: 5s;
-            transition-delay: 1s;
-            transition-timing-function: linear;
+
+            /* individual property: */
+            /* transition-property: width; */
+            /* aghr m all use krogi tu hr chez pr hover o ga and without all wo bs os chez pr o ga jispr kea o ga or kisi pr ni o ga 
+            jesy wo background color ko foran sy blue krdeta hai ku k ospr hover ni h smoothness ni aygi but jb mai all krogi tu smooth way m sb kuch hoga...*/
+            /* transition-property: all;
+            transition-duration: 5s; */
+            /* delay means k 1s bd start o... */
+            /* transition-delay: 1s; */
+            /* ====transition-timing-function==== */
+            /* linear same way sy change krta hai hover ko */
+            /* 1--transition-timing-function: linear; */
+            /* ease m pehly wo slow hota hai bdmai 1 dm fast and then fer sy slow o jta hai... */
+            /* 2---transition-timing-function: ease; */
+            /* ease-in mai start slow o ga and end fast o ga */
+            /* 3---transition-timing-function: ease-in; */
+            /* ease-out mai start fast o ga or end slow o ga */
+            /* 4--- transition-timing-function: ease-out; */
+
+            /* aghr transition 2 chezo pr apply krni hai let say width or height pr */
+            transition: width 2s, height 5s;
+
+            /* shorthandNotation of transition: */
+
+            /* transition: all 2s ease-in 5s ; */
         }
 
         /* transition tb work krygi jb hum hover state apply krygy... */
         .box:hover {
-            width: 1200px;
+            width: 1800px;
+            height: 800px;
+            background-color: blue;
+
         }
 
     </style>
