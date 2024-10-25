@@ -1,3 +1,13 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    /* background-color: red; */
+}
+
+
 .box {
     width: 400px;
     height: 400px;
@@ -5,7 +15,46 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto ;
+    border: 2px solid black;
+    /* margin: auto ; */
+    /* 2s duration ka mtlb ye h k 2s k andr andr oss destination tk pochna chye mnz 2s k andr andr 45deg tk rotate hona chye... */
+    /* and 1s means k jb start o tu 1s k bd start o  */
+    /* all ka mtlb yahan pr ye hai k m hover k andr jo b effect dalogi all pr transition apply hogi and all will be run smoothly */
+    /* and linear ka mtlb k timing-function same way sy move o */
+
+    transition: all 2s linear 1s;
+
+}
+
+.box:hover {
+    /* 1--use rotate: */
+    /* clockwise movement */
+    /* transform: rotate(45deg); */
+    /* anticlockwise movement */
+    /* transform: rotate(-45deg); */
+    /* transform: rotate(360deg); */
+
+    /* 2--use scale: */
+    /* transform: scale(2); */
+    /* transform: scale(0.5); */
+
+    /* 3-- use skew(basically it is used to tild the box tild mnz tera) */
+    /* transform: skew(-45deg); */
+
+    /* 4-- use translate(basically used for movement) */
+
+    /* transform: translate(500px); */
+    /* transform: translate(-500px); */
+
+    /* i can also give x and y values in transform */
+
+    /* x is 0 sand y is 500px so moves downward */
+    /* transform: translate(0px, 500px); */
+    /* x is 0 and now y mives upward: */
+    /* transform: translate(0px, -500px); */
+
+    /* x is 500px and y is 500px move towards diagonal*/
+    transform: translate(500px, 500px)
 
 }
 
