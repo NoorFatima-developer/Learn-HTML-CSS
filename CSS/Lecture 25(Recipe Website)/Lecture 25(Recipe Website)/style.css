@@ -8,6 +8,7 @@
     height: 100vh;
     width: 100vw;
     overflow-x: none;
+    
 
 }
 
@@ -43,6 +44,11 @@ nav {
 
 a {
     text-decoration: none;
+}
+
+.itemsFlex {
+    display: flex;
+    gap: 40px;
 }
 
 
