@@ -53,6 +53,22 @@ a {
     gap: 40px;
 }
 
+.contentBox {
+    /* and margin auto tb e work kryga jb m width 100 sy km rkhogi tu ye oss lehaz sy kryga... */
+    width: 70%;
+    border: 1px solid black;
+    /* display flex sy b center krskti o align-items krk  */
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    /* ya yhi kam m sirf margin ko auto krk b krskti o os sy b ye center m o jyega */
+    margin: auto;
+    background-color: white;
+    
+
+
+}
+
 footer {
     width: 100%;
 }
@@ -62,9 +78,6 @@ footer {
     text-align: center;
     background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
     min-height: 40px;
-    
-
-
 }
 
 .footerBox p {
