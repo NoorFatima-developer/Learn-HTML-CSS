@@ -8,8 +8,7 @@
     height: 100vh;
     width: 100vw;
     overflow-x: none;
-    
-
+    background-image: -webkit-linear-gradient(0deg, #FFDEE9 0%, #f1fcfb 100%);
 }
 
 nav {
@@ -28,8 +27,10 @@ nav {
 }
 
 .navContainer {
-    width: 100vw;
-    background-color: rgb(136, 130, 144);
+    width: 100vpx;
+    /* background-color: rgb(136, 130, 144); */
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
     min-height: 100px;
     display: flex;
     justify-content: center;
@@ -44,6 +45,7 @@ nav {
 
 a {
     text-decoration: none;
+    color: azure;
 }
 
 .itemsFlex {
@@ -51,4 +53,21 @@ a {
     gap: 40px;
 }
 
+footer {
+    width: 100%;
+}
 
+.footerBox {
+    width: 100%;
+    text-align: center;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    min-height: 40px;
+    
+
+
+}
+
+.footerBox p {
+    color: azure;
+    font-size: 2rem;
+}
