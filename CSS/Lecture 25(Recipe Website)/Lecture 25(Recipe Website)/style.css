@@ -8,22 +8,25 @@
     height: 100vh;
     width: 100vw;
     overflow-x: none;
-    background-image: -webkit-linear-gradient(0deg, #FFDEE9 0%, #f1fcfb 100%);
+    background-image: -webkit-linear-gradient(0deg, #f8f3f5 0%, #f1fcfb 100%);
 }
 
 nav {
     width: 100%;
+    padding-right: 2rem;
+
 }
 .navList {
     list-style: none;
     font-size: 2rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     /* margin-left: 15px;
     margin-right: 15px; */
     width: 100%;
     overflow-x: none;
     padding: 15px;
+    
 }
 
 .navContainer {
@@ -53,20 +56,43 @@ a {
     gap: 40px;
 }
 
+
 .contentBox {
-    /* and margin auto tb e work kryga jb m width 100 sy km rkhogi tu ye oss lehaz sy kryga... */
-    width: 70%;
-    border: 1px solid black;
-    /* display flex sy b center krskti o align-items krk  */
-    /* display: flex;
+      /* and margin auto tb e work kryga jb m width 100 sy km rkhogi tu ye oss lehaz sy kryga... */
+      width: 50%;
+      border: 1px solid black;
+      /* display flex sy b center krskti o align-items krk  */
+      /* display: flex;
+      flex-direction: column;
+      align-items: center; */
+      /* ya yhi kam m sirf margin ko auto krk b krskti o os sy b ye center m o jyega */
+      margin: auto;
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      gap: 100px;
+      padding: 3rem;
+      box-shadow: 0px 0px 30px
+}
+
+.leftBox {
+    padding: 40px;
+    display: flex;
     flex-direction: column;
-    align-items: center; */
-    /* ya yhi kam m sirf margin ko auto krk b krskti o os sy b ye center m o jyega */
-    margin: auto;
-    background-color: white;
-    
+    gap: 20px;
+}
 
 
+.ingBox {
+    font-size: 1.3rem;
+}
+
+.recipeBox {
+    font-size: 1.1rem;
+}
+
+h2 {
+    font-size: 2rem;
 }
 
 footer {
@@ -82,5 +108,46 @@ footer {
 
 .footerBox p {
     color: azure;
+    font-size: 2rem;
+}
+
+.item {
+    display: flex;
+    justify-content: space-around
+}
+
+
+.rightBox01 img{
+    height: 250px;
+    width: 175px;
+}
+
+
+img {
+    border-radius: 15px;
+    transition: all 0.1s linear 0s;
+    position: relative;
+    overflow: hidden;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.rightBox01 .overlay{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightBox01 .overlay span {
+    color: white;
     font-size: 2rem;
 }
