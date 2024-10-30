@@ -13,3 +13,6 @@ https://mixkit.co/free-stock-music/
 
 read about float and clear:
 https://css-tricks.com/almanac/properties/f/float/
+
+backgroundGround color:
+https://cssgradient.io/gradient-backgrounds/

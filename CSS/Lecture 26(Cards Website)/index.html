@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture 26</title>
+    <style>
+
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .container{
+            width: 100vw;
+            height: 100vh;
+
+            /* aghr mery web page ki height mobile view m khrab hori o then i can do this as well instead of above height and width... */ 
+            /* width: 100%;
+            height: 100%;
+            min-height: 980px; */
+
+            background-color: #8BC6EC;
+            background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .card{
+            width: 360px;
+            height: 550px;
+            background-color: white;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            padding: 20px;
+            
+        }
+
+
+        .card img {
+            height: 57%;
+            border-radius: 10px;
+        }
+
+        h2{
+            font-size: 1.5em;
+            font-weight: bold;
+            
+        }
+
+      
+        .card-container p {
+            font-size: 1.2em;
+            margin-top: -10px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="card">
+
+        <img src="assets/QRcode.jpeg" alt="QR-Code">
+
+        <h2>Improve your front end skills by developing Projects</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Atque quis dicta molestiae eligendi temporibus consectetur maxime, in ratione.</p>
+        </div>
+    </div>
+</body>
+</html>
