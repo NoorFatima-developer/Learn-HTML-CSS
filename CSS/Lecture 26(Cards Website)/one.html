@@ -4,7 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cards Website</title>
     <style>
-         *{
+
+        *{
             padding: 0;
             margin: 0;
             box-sizing: border-box;
@@ -24,15 +25,56 @@
             display: flex;
             justify-content: center;
             align-items: center;
-
         }
+
+        .card {
+            width: 400px;
+            height: 600px;
+            background-color: white;
+            border-radius: 20px;
+            display: flex;
+             flex-direction: column;
+             /* justify-content: center; */
+            align-items: center;  
+            gap: 25px;
+        }
+
+
+        img{
+            width: 100%;
+            height: 30%;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+        
+        .text-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: center; */
+        gap: 15px;
+        /* padding: 20px; */
+        text-align: center;
+        width: 75%;
+        }
+
 
     </style>
 </head>
 <body>
     
     <div class="container">
-        
+        <div class="card">
+
+            <img src="assets/Developer.jpeg" alt="">
+            
+            <div class="text-box">
+                <h2>Order Summary</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Porro, a explicabo? Non libero quos quo, iste reiciendis cumque laborum a.</p>
+            </div>
+
+        </div>
     </div>
 
 </body>
