@@ -11,7 +11,7 @@
             box-sizing: border-box;
         }
 
-        .container{
+        body{
             width: 100vw;
             height: 100vh;
 
@@ -58,12 +58,97 @@
         width: 75%;
         }
 
+        #amountBox {
+            
+            width: 80%;
+            height: 10%;
+            background-color: rgb(24, 149, 194);
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 20px;
+            padding-right: 20px;
+    
+        }
+
+
+
+        #paymentButton{
+            width: 80%;
+            height: 9%;
+            background-color: rgb(46, 126, 97);
+            color: white;
+            border-radius: 10px;
+            box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);     
+        }
+
+        .cancelbox a {
+            text-decoration: none;
+            color: rgb(49, 46, 46);
+            font-weight: bold;
+            font-size: large;
+        }
+
+        #leftbox {
+            width: fit-content;
+            display: flex;
+            flex-direction: row;
+            gap: 15px;
+            height: 100%;
+            margin-top: 20px;
+            
+        }
+
+        #leftbox .textAmountBox p{
+        line-height: 20px;
+       }
+
+        #imagebox img  {
+            width: 2.2rem; 
+            height: 2.1rem;
+        }
+
+        #rightbox a{
+            text-decoration: none;   
+        }
+        
+        @media (max-width: 300px) {
+        #amountBox {
+            display: flex;
+            flex-direction: column;
+            justify-content: center ;
+            align-items: center;
+            /* justify-content: center;
+            align-items: center; */
+            height: 95px;
+            gap: 0px;
+            line-height: 20px;
+            
+        }
+
+        /* #leftbox {
+        flex-direction: column; 
+        align-items: flex-start; 
+    } */
+
+    #rightbox {
+        margin-left: 30px;
+    }
+
+    #leftbox .textAmountBox p{
+        /* line-height: 25px; */
+        margin-bottom: 8px;
+        
+       }
+    }
 
     </style>
 </head>
 <body>
     
     <div class="container">
+
         <div class="card">
 
             <img src="assets/Developer.jpeg" alt="">
@@ -74,6 +159,34 @@
                 Porro, a explicabo? Non libero quos quo, iste reiciendis cumque laborum a.</p>
             </div>
 
+            <div id="amountBox">
+
+                <div id="leftbox">
+
+                    <div id="imagebox">
+                        <img src="assets/Mus.jpeg" alt="">
+                    </div>
+
+                    <div class="textAmountBox">
+                        <p>Amount</p>
+                        <p>$99.9/year</p>
+                    </div>
+
+                </div>
+
+                <div id="rightbox">
+                    <a href="#">Change</a>
+                </div>
+
+            </div>
+
+            <button id="paymentButton">
+                Proceed to Payment
+            </button>
+
+            <div class="cancelbox">
+                <a href="#">Cancel Order</a>
+            </div>
         </div>
     </div>
 

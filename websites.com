@@ -14,5 +14,11 @@ https://mixkit.co/free-stock-music/
 read about float and clear:
 https://css-tricks.com/almanac/properties/f/float/
 
-backgroundGround color:
+backgroundGround color:(use grabient site)
 https://cssgradient.io/gradient-backgrounds/
+
+font family:(use google font website)
+https://fonts.google.com/
+
+Shadow(use Material design site)
+https://htmlcssfreebies.com/material-design-box-shadows/
