@@ -22,3 +22,7 @@ body {
 a {
     text-decoration: none;
 }
+
+.headercontainer {
+    margin-bottom: 2rem;
+}
