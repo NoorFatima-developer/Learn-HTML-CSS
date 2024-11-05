@@ -8,9 +8,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f1f1f1;
     height: 100%;
-    width: 100%;
-
-    
+    width: 100%;    
 }
 
 .container {
@@ -19,7 +17,6 @@ body {
     margin: 0 auto;
     background-color: rgb(243, 252, 252);
     width: 80vw;
-
 }
 
 a {
@@ -56,8 +53,7 @@ a {
     flex-direction: column;
     border: 0.1px solid rgb(230, 220, 220);
     border-radius: 8px;
-    overflow: hidden;
-    
+    overflow: hidden;   
 }
 
 .card-image-container {
