@@ -1,9 +1,41 @@
+/* add inter font by using google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+/* add custom variables */
+
+:root {
+    --primary-color: #6366F1;
+    --accent-color: #3f83f8;
+    --text-color: #333333;
+    --link-color: #2563eb;
+    --background-color: #ffffff;
+    --light-gray: #f0f0f0;
+    --gray: #808080;
+    --dark-gray: #555;
+
+}
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Inter', sans-serif;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body {
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--background-color);
+}
 
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1280px;
+    align-items: center;
+    padding: 1rem;
 }
