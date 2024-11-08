@@ -261,3 +261,19 @@ body {
         width: 78%;
     }
 }
+
+.company-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.company-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    padding: 1rem;
+    background-color: var(--light-gray);
+}
