@@ -126,3 +126,12 @@ body {
     height: 1.5rem;
     width: 1.5rem;
 }
+
+.main-content {
+    max-width: 1280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin: 0 auto;
+}
