@@ -228,4 +228,36 @@ body {
     .main-content{
         flex-direction: row;
     }
+
+    .content-left {
+        max-width: 50%;
+        text-align: left;
+    }
+   
+    .section-title{
+        padding-left: 0;
+    }
+
+    .button-group{
+        justify-content: start;
+        padding-left: 0;
+    }
+
+    .section-label{
+        font-size: 1rem;
+    }
+
+    .section-title{
+        font-size: 1rem;
+    }
+
+    .image-container{
+        height: 67vh;
+    }
+
+    .section-description{
+        font-size: 1.1rem;
+        color: var(--gray);
+        width: 78%;
+    }
 }
