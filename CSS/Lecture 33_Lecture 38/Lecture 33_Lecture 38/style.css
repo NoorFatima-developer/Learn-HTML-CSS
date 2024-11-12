@@ -386,6 +386,7 @@ body {
     color: var(--background-color);
 }
 
+
 .feature-title {
     font-size: 1.3rem;
     font-weight: bold;
@@ -417,3 +418,5 @@ body {
     gap: 1rem;
   }
 }
+
+
