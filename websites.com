@@ -22,3 +22,6 @@ https://fonts.google.com/
 
 Shadow(use Material design site)
 https://htmlcssfreebies.com/material-design-box-shadows/
+
+csstricks.com
+https://css-tricks.com/snippets/css/complete-guide-grid/
