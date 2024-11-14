@@ -421,7 +421,26 @@ body {
 
 .testimonial-container {
     background-color: var(--background-color);
-    padding: 0 2rem;
+    padding: 2rem;
     margin: 0 auto;
     max-width: 1280px;
+}
+
+.testimonial-title {
+    font-size: 1.85rem;
+    font-weight: bold;
+}
+
+.testimonial-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
