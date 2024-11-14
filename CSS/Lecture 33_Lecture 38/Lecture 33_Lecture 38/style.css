@@ -435,12 +435,41 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 2rem;
 }
 
 .testimonial-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+    /* gap: 20px; */
     max-width: 1200px;
     margin: 0 auto;
+    gap: 2rem;
+
+}
+
+.testomonial-card {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(236, 234, 234);
+    border-radius: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 1rem;
+    gap: 1.6rem;
+    transition: transform 0.3s ease ;
+}
+
+.testomonial-card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border: 1px solid blue;
+}
+
+.testimonial-avatar img {
+    height: 5rem;
+    width: 5rem;
+}
+
+.testimonial-name {
+    
 }
