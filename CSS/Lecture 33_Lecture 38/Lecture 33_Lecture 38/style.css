@@ -471,5 +471,11 @@ body {
 }
 
 .testimonial-name {
-    
+    font-size: 1rem;
+    color: var(--primary-color);
+}
+
+.testimonial-desc {
+    font-size: 0.875rem;
+    color: #777;
 }
