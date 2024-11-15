@@ -1,4 +1,4 @@
-/* add inter font by using google fonts */
+add inter font by using google fonts
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 
@@ -606,4 +606,54 @@ body {
 
     }
 
+ }
+
+ /* Footer-container */
+
+ .footer-container {
+    background-color: var(--background-color);
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+ }
+
+ .footer-content {
+    max-width: 1280px;
+    padding: 1rem;
+    text-align: left;
+    display: flex;
+    /* justify-content: center; */
+    align-items: space-between;
+
+ }
+
+ .footer-top {
+    width: 35%;
+ }
+
+ .social-icons {
+    width: 1.5rem;
+    height: 1.5rem;
+ }
+
+  .comp-logo {
+    display: flex;
+   justify-content: flex-start;
+ } 
+
+
+ .logo-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+ }
+
+ .logo-svg {
+    width: 1.2rem;
+    height: 6rem;
  }
