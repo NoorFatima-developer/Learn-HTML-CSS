@@ -482,9 +482,8 @@ body {
 
 .newsletter-container {
     background-color: var(--background-color);
-    padding: 2rem;
     max-width: 1150px;
-    height: 45vh;
+    height: 50vh;
     margin: 0 auto;
 }
 
@@ -501,9 +500,13 @@ body {
 .news-left {
     height: 100%;
     width: 50%;
+    position: relative;
+    display: none;
 }
 
 .news-left img {
+    position: absolute;
+    inset:0;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -518,11 +521,11 @@ body {
     padding: 0.8rem;
     align-items: flex-start;
     justify-content: center;
-    width: 50%;
+    width: 98%;
  }
 
  .news-title {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     color: var(--primary-color);
  }
@@ -538,6 +541,10 @@ body {
 
  .news-form {
     padding: 0 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    gap: 0.6rem;
  }
 
  .news-email{
@@ -582,4 +589,21 @@ body {
     padding-left: 0.75rem;
     text-align: start;
     width: 800px;
+ }
+
+ @media screen and (min-width:640px){
+    .news-left{
+        display: block;
+        width: 50%;
+    }
+
+    .news-right{
+        width: 50%;
+    }
+
+    .newsletter-container{
+        padding: 2.5rem;
+
+    }
+
  }
